@@ -8,6 +8,7 @@ from simplistic_prompt import generate_simplistic_prompt
 from midwit_prompt import generate_midwit_prompt
 
 # wget.download("https://ultralytics.com/assets/Arial.ttf", "arial.ttf")
+
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 api_key = os.environ['api_key']
