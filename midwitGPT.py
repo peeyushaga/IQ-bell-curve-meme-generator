@@ -42,7 +42,7 @@ def strip_prefix(view):
     return view
     
 def check_and_strip_incomplete_sentence(view):
-  sentence_endings = ['.', '!', '?']
+  sentence_endings = ['.', '!', '?', ';']
   if view[-1] in sentence_endings:
       return view
   else:
@@ -71,7 +71,7 @@ def generate_views(user_input):
   midwit_prompt = generate_midwit_prompt(prompt)
   simplistic_view = midwit_gpt.generate(simplistic_prompt,
                                         temperature=0.8,
-                                        max_length=36)
+                                        max_length=20)
   simplistic_view = strip_prefix(simplistic_view)
   simplistic_view = check_and_strip_incomplete_sentence(simplistic_view)
   midwit_view = midwit_gpt.generate(midwit_prompt,

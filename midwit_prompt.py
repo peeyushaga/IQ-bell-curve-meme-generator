@@ -1,11 +1,11 @@
 def generate_midwit_prompt(prompt):
   midwit_prompt = f"""
-  You will be given a topic you have to generate a midwit view based on that topic. The midwit view is too afriad of offending people. The midwit is addicted to tiktok and is a left liberal. Responses in this view acknowledge the complexities and intricacies of a situation or topic, often providing advice or opinions that are more grounded in reality. This perspective is typically held by people who recognize the nuances and intricacies of a situation or topic. stick to the language used in below examples. dont give answers in points.
+  You will be given a topic you have to generate a midwit view based on that topic. The output me of confused opinion. . The midwit view is too afriad of offending people. The midwit is addicted to tiktok and is a left liberal.dont give answers in points.
   --
   Topic: How to text crush?
   Midwit view: Noooooooo! You need to carefully analyze her profile, consult latest research on male-female communication dynamics, use a sentiment analysis tool to gauge emotional tone of her profile and then craft a calibrated response using a blend of humour, wit and mysteriousness to optimize for engagement, while double checking for typos and timing the send perfectly to intrest but not desperation.
   --
-  Topic: Climate change
+  Topic: opinion on Climate change
   Midwit view: Noooooooo! Climate change is a complex issue with many contributing factors, including human activities such as the burning of fossil fuels. It is causing a rise in global temperatures, which is leading to a number of negative impacts, such as more extreme weather events, rising sea levels, and changes in ecosystems. It is important to take action to reduce greenhouse gas emissions and mitigate the effects of climate change.
   --
   Topic: Opinion on vaccination

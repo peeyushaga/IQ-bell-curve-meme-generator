@@ -1,6 +1,6 @@
 def generate_simplistic_prompt(prompt):
   simplistic_prompt =  f"""
-  You will be given a topic you have to generate a simplistic view based on that topic. The simplistic view is characterized by a lack of nuance and complexity. The simplistic view doest care if someone gets offended by its views, it is right leaning and highly capitalistc. it is addicted to X (twitter). Responses in this view are often black-and-white, focusing on extreme statements and exaggeration. This perspective is typically held by people who believe in the simplicity of a situation or topic. stick to the language used in below examples. give full sentences. keep the response short. be direct
+  You will be given a topic you have to generate a simplistic view based on that topic. You dont have to give explaination or justify your answer. The simplistic view doest care if someone gets offended by its views, it is right leaning and highly capitalistc. it is addicted to X (twitter). Responses in this view are often black-and-white, focusing on extreme statements and exaggeration. This perspective is typically held by people who believe in the simplicity of a situation or topic. keep the response short. be direct
   --
 
   Topic: How to text crush?
@@ -25,15 +25,15 @@ def generate_simplistic_prompt(prompt):
   --
 
   Topic: Opinion on fast food
-  Simplistic view: "Fast food is the best, nothing beats it"
+  Simplistic view: "Fast food is the best,"
   --
 
   Topic: How to succeed in life
-  Simplistic view: "Work hard and you'll make it"
+  Simplistic view: "Work hard"
   --
 
   Topic: Opinion on social media influencers
-  Simplistic view: "They're all fake and just in it for the money"
+  Simplistic view: "They're all fake"
   --
 
   Topic: Advice on studying for exams
@@ -49,7 +49,7 @@ def generate_simplistic_prompt(prompt):
   --
 
   Topic: Opinion on climate change
-  Simplistic view: "It's not real, just a natural cycle"
+  Simplistic view: "It's not real"
   --
 
   Topic: Advice on saving money
@@ -57,97 +57,97 @@ def generate_simplistic_prompt(prompt):
   --
 
   Topic: Opinion on video games
-  Simplistic view: "They're a waste of time and rot your brain"
+  Simplistic view: "They're a waste of time"
   --
 
   Topic: How to start a business
-  Simplistic view: "Just come up with a good idea and start selling"
+  Simplistic view: "Just come up with a good idea"
   --
 
   Topic: Opinion on politics
-  Simplistic view: "All politicians are corrupt and can't be trusted"
+  Simplistic view: "All politicians are corrupt"
   --
 
   Topic: Advice on public speaking
   Simplistic view: "Just memorize your speech and don't look at the audience"
   --
   Topic: Opinion on the future of AI
-  Simplistic view: "AI will change the world for the better, and we should embrace it fully"
+  Simplistic view: "AI will change the world for the better"
   --
 
   Topic: Opinion on capitalism
-  Simplistic view: "Capitalism is the best economic system, and anyone who disagrees is just jealous of successful people"
+  Simplistic view: "Capitalism is the best economic system"
   --
   Topic: Opinion on communism
   Simplistic view: "communism is virus"
   --
 
   Topic: Opinion on free speech
-  Simplistic view: "Free speech is absolute, and people need to toughen up and stop being so easily offended"
+  Simplistic view: "Free speech is absolute"
   --
 
   Topic: Opinion on climate change
-  Simplistic view: "Climate change is a hoax, and we shouldn't waste time and resources on it"
+  Simplistic view: "Climate change is a hoax"
   --
 
   Topic: Opinion on immigration
-  Simplistic view: "Immigrants are taking our jobs and ruining our country, and we need to close our borders"
+  Simplistic view: "Immigrants are taking our jobs and ruining our country"
   --
 
   Topic: Opinion on the role of government
-  Simplistic view: "Government should stay out of people's lives and let the free market handle everything"
+  Simplistic view: "Government should stay out of people's lives"
   --
 
   Topic: Opinion on the death penalty
-  Simplistic view: "The death penalty is necessary to deter crime and punish the worst offenders"
+  Simplistic view: "death penalty is necessary"
   --
 
   Topic: Opinion on the role of religion in society
-  Simplistic view: "Religion should be the foundation of society, and everyone should follow the same beliefs"
+  Simplistic view: "Religion should be the foundation of society"
   --
 
   Topic: Opinion on the education system
-  Simplistic view: "The education system is broken and needs to be completely overhauled"
+  Simplistic view: "The education system is broken"
   --
 
   Topic: Opinion on the role of the media
-  Simplistic view: "The media is biased and can't be trusted, and we should only listen to sources that align with our beliefs"
+  Simplistic view: "The media is biased"
   --
 
   Topic: Opinion on the role of science
-  Simplistic view: "Science is overrated and can't explain everything, and we should rely more on common sense"
+  Simplistic view: "laws of thermodynamics ftw"
   --
 
   Topic: Opinion on the role of art
-  Simplistic view: "Art is useless and a waste of time and resources"
+  Simplistic view: "Art is useless"
   --
 
   Topic: Opinion on the role of sports
-  Simplistic view: "Sports are the most important thing in the world, and we should prioritize them over everything else"
+  Simplistic view: "Sports are great"
   --
 
   Topic: Opinion on the role of technology
-  Simplistic view: "Technology is the solution to all our problems, and we should embrace it fully"
+  Simplistic view: "Technology is the solution to all our problems"
   --
 
   Topic: Opinion on the role of the military
-  Simplistic view: "The military is the backbone of our country, and we should always support it no matter what"
+  Simplistic view: "The military is the backbone of our country"
   --
 
   Topic: Opinion on coffee
-  Simplistic view: "Coffee is life, I can't function without it"
+  Simplistic view: "Coffee is life"
   --
 
   Topic: Opinion on Monday mornings
-  Simplistic view: "Mondays are the worst, I hate them"
+  Simplistic view: "Mondays are the worst"
   --
 
   Topic: Opinion on procrastination
-  Simplistic view: "I'll do it later, I always work better under pressure"
+  Simplistic view: "I'll do it later,"
   --
 
   Topic: Opinion on social media
-  Simplistic view: "Social media is a waste of time, it's all fake anyway"
+  Simplistic view: "Social media is a waste of time"
   --
 
   Topic: {prompt}
