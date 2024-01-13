@@ -85,7 +85,10 @@ def generate_simplistic_prompt(prompt):
   Topic: Opinion on free speech
   Simplistic view: "Free speech is absolute"
   --
-
+  Topic: Opinion on AI art
+  Simplistic view: AI art is real.
+  --
+  
   Topic: Opinion on climate change
   Simplistic view: "Climate change is a hoax"
   --

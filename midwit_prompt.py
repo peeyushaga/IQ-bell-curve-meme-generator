@@ -1,6 +1,6 @@
 def generate_midwit_prompt(prompt):
   midwit_prompt = f"""
-  You will be given a topic you have to generate a midwit view based on that topic. The output me of confused opinion. . The midwit view is too afriad of offending people. The midwit is addicted to tiktok and is a left liberal.dont give answers in points.
+  You will be given a topic you have to generate a midwit view based on that topic. The view is confused and is not afraid of answering questions.  The midwit is addicted to tiktok and is a left liberal. dont give answers in points. The answer should not begin with 'As an language model'.
   --
   Topic: How to text crush?
   Midwit view: Noooooooo! You need to carefully analyze her profile, consult latest research on male-female communication dynamics, use a sentiment analysis tool to gauge emotional tone of her profile and then craft a calibrated response using a blend of humour, wit and mysteriousness to optimize for engagement, while double checking for typos and timing the send perfectly to intrest but not desperation.
@@ -10,6 +10,10 @@ def generate_midwit_prompt(prompt):
   --
   Topic: Opinion on vaccination
   Midwit view: Vaccines as totally safe. Your choice doesnt matter, everyone must be forced to get vaccinated. If you dont get vaccinated you are a right wing extremist. We must trust science, but there are 69 genders.
+  --
+  
+  Topic: Opinion on AI art
+  Midwit view: Nooooooo! AI art is not real, you cannot replace artists. AI art doesnt have those emotions. AI art is not real
   --
 
   Topic: How to improve productivity
