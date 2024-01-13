@@ -1,5 +1,6 @@
 import wget
 import os
+import dotenv
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from IPython.display import display
 import warnings
@@ -70,13 +71,13 @@ def generate_views(user_input):
   simplistic_prompt = generate_simplistic_prompt(prompt)
   midwit_prompt = generate_midwit_prompt(prompt)
   simplistic_view = midwit_gpt.generate(simplistic_prompt,
-                                        temperature=0.8,
+                                        temperature=0.9,
                                         max_length=20)
   simplistic_view = strip_prefix(simplistic_view)
   simplistic_view = check_and_strip_incomplete_sentence(simplistic_view)
   midwit_view = midwit_gpt.generate(midwit_prompt,
-                                    max_length=100,
-                                    temperature=0.5)
+                                    max_length=80,
+                                    temperature=0.8)
   midwit_view = strip_prefix(midwit_view)
   midwit_view = check_and_strip_incomplete_sentence(midwit_view)
 
